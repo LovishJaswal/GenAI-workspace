@@ -27,7 +27,7 @@ The project uses a dataset of **50 songs** containing:
 ### Running the Project
 
 1. Add your Hugging Face access token to **Colab Secrets** and grant notebook access.
-2. Upload the provided `songs_dataset.json` dataset.
+2. Upload the provided `songs_dataset_50_final.json` dataset.
 3. Run all notebook cells in order.
 4. Enter a natural language query (e.g., *"Suggest energetic Punjabi songs with confident vibes"*).
 5. The system retrieves the **Top 5 semantically similar songs** using ChromaDB and Hugging Face embeddings.
